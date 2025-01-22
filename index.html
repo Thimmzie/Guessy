@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Guessy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <div class="nav-bar-container">
+          <div class="logo-div">
+            <div><img id="logo" src="images/cropped_image.png" /></div>
+            <div><h1>GUESSY</h1></div>
+          </div>
+          <div class="desktop-menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Explore</a></li>
+              <li><a href="#">Coming Soon</a></li>
+            </ul>
+          </div>
+          <div>
+            <button class="btn1">
+              <ion-icon name="add-outline"></ion-icon>Connect
+            </button>
+          </div>
+          <div class="hamburger">
+            <ion-icon id="burger-icon" name="menu-outline"></ion-icon>
+          </div>
+        </div>
+      </header>
+    </section>
+    <div class="horizontal-line"></div>
+    <section id="body-sec">
+      <div class="body">
+        <div class="reveal-box">
+          <h1 class="my-number">Guess My Number!</h1>
+          <p>(Between 1 and 30)</p>
+          <button class="btn2">Play Again!</button>
+          <div class="number-div"><h1 class="number">?</h1></div>
+        </div>
+        <div class="main">
+          <p class="start">Yo! Let's Go...</p>
+          <input type="number" class="guess" placeholder="Your guess" />
+          <button class="btn3">Check?</button>
+          <p class="label-score">Score:<span class="score">20</span></p>
+          <p class="label-highscore">
+            Highscore:<span class="highscore">0</span>
+          </p>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="footer-kind-of-thing">
+          <div>
+            <p class="production">&copy 2025 Guessy</p>
+          </div>
+          <div class="socials">
+            <ul class="social-ul">
+              <li>
+                <a href="https://x.com/rushhour435?s=21"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/david_ayodejie?igsh=cnZ0NmwyOXMxdW10&utm_source=qr"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="http://linkedin.com/in/ayodeji-olupinla-60875b205"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/Thimmzie"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

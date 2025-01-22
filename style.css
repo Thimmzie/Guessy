@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "russo-one";
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Quantum";
+  src: url(fonts/Free-Quantum-Sans-Serif-Font/Quantum.otf);
+}
+@font-face {
+  font-family: "russo-one";
+  src: url(fonts/russo-one/RussoOne-Regular.ttf);
+}
+.nav-bar-container {
+  height: 9vh;
+  background: linear-gradient(100deg, rgb(0, 0, 0), rgb(16, 7, 70));
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-div {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-div h1 {
+  font-size: 1.4rem;
+  font-family: "Quantum", serif;
+  color: rgb(253, 195, 96);
+  padding-top: 0.5rem;
+}
+#logo {
+  width: 6.5vw;
+}
+.desktop-menu {
+  display: none;
+}
+.btn1 {
+  display: none;
+}
+#burger-icon {
+  font-size: 2.5rem;
+  color: rgb(253, 195, 96);
+}
+.horizontal-line {
+  border-top: solid 0.2rem rgb(226, 223, 223);
+  width: 100;
+}
+.body {
+  /*background-image: url("images/8533430.jpg");*/
+  background-color: rgb(10, 16, 74);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 12rem;
+  height: 90.8vh;
+}
+.reveal-box {
+  height: 30vh;
+  width: 80vw;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  margin: auto;
+}
+.my-number {
+  font-size: 2.3rem;
+  background: linear-gradient(
+    180deg,
+    rgb(65, 88, 208),
+    rgb(200, 80, 192),
+    rgb(255, 204, 112)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.reveal-box p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.2rem;
+}
+.btn2 {
+  background-color: rgb(153, 50, 204);
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  margin-bottom: 1.5rem;
+}
+.number-div {
+  height: 12vh;
+  width: 40vw;
+  background-color: rgb(16, 26, 121);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.start {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.guess {
+  width: 50vw;
+  height: 6vh;
+  border: solid 0.1rem rgb(255, 255, 255);
+  outline: none;
+  background-color: rgb(128, 128, 128);
+  color: rgb(255, 255, 255);
+  padding-left: 1rem;
+  font-size: 1.8rem;
+}
+::placeholder {
+  color: rgb(219, 217, 217);
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+.btn3 {
+  margin-top: 1rem;
+  width: 30vw;
+  height: 6vh;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  background-color: rgb(153, 50, 204);
+  margin-bottom: 1rem;
+}
+.label-score {
+  font-size: 1.6rem;
+  color: rgb(233, 230, 230);
+}
+.score {
+  font-size: 1.6rem;
+  color: rgb(255, 253, 253);
+  padding-left: 0.5rem;
+}
+.label-highscore {
+  font-size: 1.6rem;
+  color: rgb(233, 230, 230);
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+}
+.highscore {
+  font-size: 1.6rem;
+  color: rgb(255, 253, 253);
+  padding-left: 0.5rem;
+}
+.footer-kind-of-thing {
+  display: flex;
+  justify-content: center;
+  gap: 13rem;
+  padding-top: 2rem;
+}
+.production {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+.social-ul {
+  display: flex;
+  gap: 1rem;
+}
+.social-ul a {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}
