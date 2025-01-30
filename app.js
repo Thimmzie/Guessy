@@ -15,6 +15,8 @@ document.querySelector(".btn3").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
   if (!guess) {
     displayMessage("No input");
+  } else if (guess > 30 || guess < 1) {
+    displayMessage("Guess a number in between 1 and 30");
   } else if (guess === number) {
     revealNum.textContent = number;
     displayMessage("That's right lad! You finally did it");
